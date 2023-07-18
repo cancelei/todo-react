@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 const links = [
-  { path: '/', text: 'Home' },
-  { path: 'about', text: 'About' },
-  { path: 'profile', text: 'Profile' },
-  { path: 'login', text: 'Login' },
+  { path: "/", text: "Home" },
+  { path: "about", text: "About" },
+  { path: "profile", text: "Profile" },
+  { path: "login", text: "Login" },
 ];
 
 const Navbar = () => {
@@ -20,6 +20,6 @@ const Navbar = () => {
         })}
       </ul>
     </nav>
-  )
+  );
 };
 export default Navbar;
